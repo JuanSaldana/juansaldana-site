@@ -106,7 +106,7 @@ main > article > .article-title-section{
 
 main > article > .article-title-section > h2{
     margin:0;
-    width:30vw;
+    width:25vw;
     flex-wrap: wrap;
     overflow: hidden;
     font-weight: 600;

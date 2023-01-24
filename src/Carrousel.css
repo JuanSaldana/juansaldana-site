@@ -1,0 +1,142 @@
+.CarrouselLayout{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-bar{
+    display:flex;
+    width:100%;
+    border-bottom: 1px solid var(--border-color)
+}
+
+.nav-bar > .nav-section{
+    padding: 2rem 2rem;
+    display:flex;
+    gap:1rem;
+    border-left:1px solid var(--border-color);
+    justify-content:center;
+    align-items: center;
+}
+
+#nav-logo-section, #nav-link-section {
+    flex-basis: calc(100%/3);
+}
+
+#nav-social-section, #nav-contact-section {
+    flex-grow:1;
+}
+
+#nav-logo-section{
+    justify-content: flex-start;
+}
+
+#nav-logo-section > a > i{
+    font-size:2rem;
+}
+
+#nav-link-section{
+    gap:8rem;
+}
+
+#nav-social-section{
+    gap:3rem;
+} 
+
+#nav-social-section > a > i {
+    font-size:1.5rem
+}
+
+main{
+    flex-grow:1;
+}
+
+main > article {
+    display:grid;
+    height:100%;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows:2fr 1fr;
+}
+
+main > article > .article-section {
+    height:inherit;
+    border: 1px solid var(--border-color)
+}
+
+main > article > .article-description-section,
+main > article > .article-nav-section{
+    border-left: 1px solid var(--border-color)
+}
+
+main > article > .article-title-section,
+main > article > .article-nav-section{
+    border-top: 1px solid var(--border-color)
+}
+
+main > article > .article-image-section{
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+main > article > .article-description-section{
+    display:flex;
+    flex-wrap:wrap;
+    align-content: flex-end;
+    justify-content: center;
+    padding: 2vh 3vw;
+}
+
+main > article > .article-description-section > p {
+    letter-spacing: 0.1em;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+main > article > .article-title-section{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    padding:2vh 0 2vh 2vw;
+    align-items: center;
+}
+
+main > article > .article-title-section > h2{
+    margin:0;
+    width:30vw;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-weight: 600;
+    font-size:3rem;
+    text-align:start;
+    vertical-align: middle;
+}
+
+main > article > .article-title-section > a {
+    display:flex;
+    justify-content: center;
+    justify-self: end;
+    align-self: center;
+    font-size: 8rem;
+}
+
+main>article>.article-nav-section{
+    display:flex;
+}
+
+main>article>.article-nav-section>a{
+    width:50%;
+    border-left: 1px solid var(--border-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 8rem;
+}
+
+#typewriter > .article-image-section{
+    background-image:url("./images/typewriter.jpg");
+}

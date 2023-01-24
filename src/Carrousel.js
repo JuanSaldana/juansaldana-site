@@ -1,5 +1,4 @@
 import "./Carrousel.css";
-import typewriter from "./images/typewriter.jpg";
 
 function Carrousel() {
   return (
@@ -51,9 +50,55 @@ function Carrousel() {
             </a>
           </div>
         </article>
-        <article></article>
-        <article></article>
-        <article></article>
+
+        {/* <article id="typewriter">
+          <div class="article-image-section article-section"></div>
+          <div class="article-description-section article-section">
+            <p>
+              Lorem ipsum Eiusmod sint cillum occaecat irure minim. Voluptate
+              occaecat labore minim incididunt fugiat ea consectetur aliquip
+              sint veniam quis voluptate. Minim sint ea Lorem tempor commodo.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2>Typewriter title, looking nice, checking third line</h2>
+            <a>
+              <i class="ri-add-line"></i>
+            </a>
+          </div>
+          <div class="article-nav-section article-section">
+            <a>
+              <i class="ri-arrow-left-line"></i>
+            </a>
+            <a>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </article>
+        <article id="typewriter">
+          <div class="article-image-section article-section"></div>
+          <div class="article-description-section article-section">
+            <p>
+              Lorem ipsum Eiusmod sint cillum occaecat irure minim. Voluptate
+              occaecat labore minim incididunt fugiat ea consectetur aliquip
+              sint veniam quis voluptate. Minim sint ea Lorem tempor commodo.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2>Typewriter title, looking nice, checking third line</h2>
+            <a>
+              <i class="ri-add-line"></i>
+            </a>
+          </div>
+          <div class="article-nav-section article-section">
+            <a>
+              <i class="ri-arrow-left-line"></i>
+            </a>
+            <a>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </article> */}
       </main>
     </div>
   );
